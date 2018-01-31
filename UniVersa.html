@@ -1,0 +1,661 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+	<title>UniVersa</title>
+	<link rel="stylesheet" type="text/css" href="css/UniVersa.css">
+	<script type="text/javascript">
+        var time = 0;
+
+        setInterval(carrossel, 1000);
+
+        function carrossel(){
+        	time++;
+        	if(time >= 0 && time <= 5){
+        		document.getElementById("car1").style.display = "block";
+        		document.getElementById("car2").style.display = "none";
+        		document.getElementById("car3").style.display = "none";
+        		document.getElementById("car4").style.display = "none";
+        	}
+
+        	if(time >= 5 && time <= 10){
+        		document.getElementById("car1").style.display = "none";
+        		document.getElementById("car2").style.display = "block";
+        		document.getElementById("car3").style.display = "none";
+        		document.getElementById("car3").style.display = "none";
+        	}
+
+        	if(time >= 10 && time <= 15){
+        		document.getElementById("car1").style.display = "none";
+        		document.getElementById("car2").style.display = "none";
+        		document.getElementById("car3").style.display = "block";
+        		document.getElementById("car4").style.display = "none";
+        	}
+
+        	if(time >= 15 && time <= 20){
+        		document.getElementById("car1").style.display = "none";
+        		document.getElementById("car2").style.display = "none";
+        		document.getElementById("car3").style.display = "none";
+        		document.getElementById("car4").style.display = "block";
+        	}
+
+        	if(time > 20){
+        		time = 0;
+        	}
+        }
+
+		function home_color_change(){
+			document.getElementById("Home").style.background = "#0066ff";
+		}
+
+		function home_color_original(){
+			document.getElementById("Home").style.background = "none";
+		}
+
+		function inst_color_change(){
+			document.getElementById("Institucional").style.background = "#0066ff";
+			document.getElementById("Institucional_menu").style.display = "block";
+		}
+
+		function inst_color_original(){
+			document.getElementById("Institucional").style.background = "none";
+		}
+
+		function curso_color_change(){
+			document.getElementById("Cursos").style.background = "#0066ff";
+			document.getElementById("Cursos_menu").style.display = "block";
+		}
+
+		function curso_color_original(){
+			document.getElementById("Cursos").style.background = "none";
+		}
+
+		function turma_color_change(){
+			document.getElementById("Turmas").style.background = "#0066ff";
+			document.getElementById("Turmas_menu").style.display = "block";
+		}
+
+		function turma_color_original(){
+			document.getElementById("Turmas").style.background = "none";
+		}
+
+		function not_color_change(){
+			document.getElementById("Noticias").style.background = "#0066ff";
+		}
+
+		function not_color_original(){
+			document.getElementById("Noticias").style.background = "none";
+		}
+
+		function uni_vida_color_change(){
+			document.getElementById("p1").style.background = "#e6e6e6";
+		}
+
+		function uni_vida_color_original(){
+			document.getElementById("p1").style.background = "white";
+		}
+
+		function uni_jovem_color_change(){
+			document.getElementById("p2").style.background = "#e6e6e6";
+		}
+
+		function uni_jovem_color_original(){
+			document.getElementById("p2").style.background = "white";
+		}
+
+		function uni_est_color_change(){
+			document.getElementById("p3").style.background = "#e6e6e6";
+		}
+
+		function uni_est_color_original(){
+			document.getElementById("p3").style.background = "white";
+		}
+
+		function turmas_color_change(){
+			document.getElementById("turma").style.background = "#e6e6e6";
+		}
+
+		function turmas_color_original(){
+			document.getElementById("turma").style.background = "white";
+		}
+
+		function promo_color_change(){
+			document.getElementById("promocao").style.background = "#e6e6e6";
+		}
+
+		function promo_color_original(){
+			document.getElementById("promocao").style.background = "white";
+		}
+
+        function info_color_change(){
+            document.getElementById("informacao").style.background = "#e6e6e6";
+        }
+
+        function info_color_original(){
+            document.getElementById("informacao").style.background = "white";
+        }
+
+        function prof_color_change(){
+            document.getElementById("professor").style.background = "e6e6e6";
+        }
+
+        function prof_color_original(){
+            document.getElementById("professor").style.background = "white";
+        }
+
+        function func_color_change(){
+        	document.getElementById("funcionario").style.background = "e6e6e6";
+        	document.getElementById("func_menu").style.display = "block";
+        }
+
+        function func_color_original(){
+        	document.getElementById("funcionario").style.background = "white";
+        }
+
+        function func_menu_disapear(){
+        	document.getElementById("func_menu").style.display = "none";
+        }
+
+        function secr_color_change(){
+        	document.getElementById("func_secr").style.background = "#3399ff";
+        }
+
+        function secr_color_original(){
+        	document.getElementById("func_secr").style.background = "#0066ff";
+        }
+
+        function limp_color_change(){
+        	document.getElementById("func_limp").style.background = "#3399ff";
+        }
+
+        function limp_color_original(){
+        	document.getElementById("func_limp").style.background = "#0066ff";
+        }
+
+        function tutr_color_change(){
+        	document.getElementById("func_tutr").style.background = "#3399ff";
+        }
+
+        function tutr_color_original(){
+        	document.getElementById("func_tutr").style.background = "#0066ff";
+        }
+
+        function psi_color_change(){
+        	document.getElementById("func_psi").style.background = "#3399ff";
+        }
+
+        function psi_color_original(){
+        	document.getElementById("func_psi").style.background = "#0066ff";
+        }
+
+        function ped_color_change(){
+        	document.getElementById("func_ped").style.background = "#3399ff";
+        }
+
+        function ped_color_original(){
+        	document.getElementById("func_ped").style.background = "#0066ff";
+        }
+
+        function inst_menu_1_color_change(){
+        	document.getElementById("Inst_menu_1").style.background = "#3399ff";
+        }
+
+        function inst_menu_1_color_original(){
+        	document.getElementById("Inst_menu_1").style.background = "#0066ff";
+        }
+
+        function inst_menu_2_color_change(){
+        	document.getElementById("Inst_menu_2").style.background = "#3399ff";
+        }
+
+        function inst_menu_2_color_original(){
+        	document.getElementById("Inst_menu_2").style.background = "#0066ff";
+        }
+
+        function inst_menu_3_color_change(){
+        	document.getElementById("Inst_menu_3").style.background = "#3399ff";
+        }
+
+        function inst_menu_3_color_original(){
+        	document.getElementById("Inst_menu_3").style.background = "#0066ff";
+        }
+        
+        function inst_menu_disapear(){
+        	document.getElementById("Institucional_menu").style.display = "none";
+        }
+
+        function turmas_menu_1_color_change(){
+        	document.getElementById("Turmas_menu_1").style.background = "#3399ff";
+        }
+
+        function turmas_menu_1_color_original(){
+        	document.getElementById("Turmas_menu_1").style.background = "#0066ff";
+        }
+
+         function turmas_menu_2_color_change(){
+        	document.getElementById("Turmas_menu_2").style.background = "#3399ff";
+        }
+
+        function turmas_menu_2_color_original(){
+        	document.getElementById("Turmas_menu_2").style.background = "#0066ff";
+        }
+
+        function turmas_menu_disapear(){
+        	document.getElementById("Turmas_menu").style.display = "none";
+        }
+
+        function cursos_menu_1_color_change(){
+        	document.getElementById("Cursos_menu_1").style.background = "#3399ff";
+        }
+
+        function cursos_menu_1_color_original(){
+        	document.getElementById("Cursos_menu_1").style.background = "#0066ff";
+        }
+
+        function cursos_menu_2_color_change(){
+        	document.getElementById("Cursos_menu_2").style.background = "#3399ff";
+        }
+
+        function cursos_menu_2_color_original(){
+        	document.getElementById("Cursos_menu_2").style.background = "#0066ff";
+        }
+
+        function cursos_menu_3_color_change(){
+        	document.getElementById("Cursos_menu_3").style.background = "#3399ff";
+        }
+
+        function cursos_menu_3_color_original(){
+        	document.getElementById("Cursos_menu_3").style.background = "#0066ff";
+        }
+
+        function cursos_menu_4_color_change(){
+        	document.getElementById("Cursos_menu_4").style.background = "#3399ff";
+        }
+
+        function cursos_menu_4_color_original(){
+        	document.getElementById("Cursos_menu_4").style.background = "#0066ff";
+        }
+
+        function cursos_menu_5_color_change(){
+        	document.getElementById("Cursos_menu_5").style.background = "#3399ff";
+        }
+
+        function cursos_menu_5_color_original(){
+        	document.getElementById("Cursos_menu_5").style.background = "#0066ff";
+        }
+
+        function cursos_menu_disapear(){
+        	document.getElementById("Cursos_menu").style.display = "none";
+        }
+
+
+	</script>
+</head>
+<body>
+  <div class="container">
+  	 <div id="foto">
+  	 	<img src="Images/universa_icon.png" id="foto">
+  	 	<img src="Images/Universa_logo.png" id="logo">
+  	 </div>
+  	 <div id="menu">
+  	     <a href="">
+  	     	<div id="Home" onmouseover="home_color_change(); inst_menu_disapear()" onmouseout="home_color_original()">
+  	 	     <p id="p_Home">H O M E</p>
+  	 	    </div>
+  	     </a>
+  	 	 <a href="">
+  	 	 	<div id="Institucional" onmouseover="inst_color_change(); cursos_menu_disapear(); turmas_menu_disapear()" onmouseout="inst_color_original()">
+  	 	 	 <p id="p_Institucional">Institucional</p>
+  	 	    </div>
+  	 	 </a>
+  	 	 <a href="">
+  	 	 	<div id="Cursos" onmouseover="curso_color_change(); turmas_menu_disapear(); inst_menu_disapear()" onmouseout="curso_color_original()">
+  	 	 	  <p id="p_Cursos">Cursos</p>
+  	 	    </div>
+  	 	 </a>
+  	 	 
+  	 	 <a href="">
+  	 	 	 <div id="Turmas" onmouseover="turma_color_change(); cursos_menu_disapear(); inst_menu_disapear()" onmouseout="turma_color_original()">
+  	 	 	     <p id="p_Turmas">Turmas 2017</p>
+  	 	     </div>
+  	 	 </a>
+  	 	 <a href="">
+  	 	 	<div id="Noticias" onmouseover="not_color_change(); turmas_menu_disapear()" onmouseout="not_color_original()">
+  	 	 	  <p id="p_Noticias">Notícias</p>
+  	 	    </div>
+  	 	 </a>
+  	 </div>
+  	 <div id="projetos">
+  	     	 <div id="p0">
+  	     	     	<p id="p_p0">Projetos</p>
+  	         </div>
+  	         <a href="">
+  	         	<div id="p1" onmouseover="uni_vida_color_change()" onmouseout="uni_vida_color_original()">
+  	 	 	      <p id="p_p1">UniVersa e Vida</p>
+  	 	        </div>
+  	         </a>
+  	         <a href="">
+  	         	<div id="p2" onmouseover="uni_jovem_color_change()" onmouseout="uni_jovem_color_original()">
+  	 	 	      <p id="p_p2">UniVersa Jovem</p>
+  	 	        </div>
+  	         </a>
+  	     	 <a href="">
+  	     	 	<div id="p3" onmouseover="uni_est_color_change()", onmouseout="uni_est_color_original()">
+  	 	 	      <p id="p_p3">UniVersa Estágios</p>
+  	 	        </div>
+  	     	 </a>
+  	     	
+  	 </div>
+    <!--Menu interativo do navbar-->
+     <div id="Institucional_menu" onmouseleave="inst_menu_disapear()">
+         <div id="Inst_menu_1" onmouseover="inst_menu_1_color_change()" onmouseout="inst_menu_1_color_original()">
+            <a href="">
+              <p id="Inst_menu_1_p">Quem somos nós</p>
+            </a>
+         </div>
+         <div id="Inst_menu_2" onmouseover="inst_menu_2_color_change()" onmouseout="inst_menu_2_color_original()">
+            <a href="">
+              <p id="Inst_menu_2_p">Onde estamos</p>
+            </a>
+         </div>
+         <div id="Inst_menu_3" onmouseover="inst_menu_3_color_change()" onmouseout="inst_menu_3_color_original()">
+            <a href="">
+              <p id="Inst_menu_3_p">Histórico</p>
+            </a>
+         </div>
+         <div id="ln_1" onmouseover="inst_menu_disapear()"></div>  <!--ln é a id de linhas brancas-->
+         <div id="ln_2"></div>     	
+     </div>
+
+     <div id="Turmas_menu" onmouseleave="turmas_menu_disapear()">
+         <div id="Turmas_menu_1" onmouseover="turmas_menu_1_color_change()" onmouseout="turmas_menu_1_color_original()">
+            <a href="">
+              <p id="Turmas_menu_1_p">Promoções</p>
+            </a>
+         </div>
+         <div id="Turmas_menu_2" onmouseover="turmas_menu_2_color_change()" onmouseout="turmas_menu_2_color_original()">
+            <a href="">
+              <p id="Turmas_menu_2_p">Informações</p>
+            </a>
+         </div>
+         <div id="ln_1a" onmouseover="turmas_menu_disapear()"></div>
+         <div id="ln_2a"></div>     	
+     </div>
+
+     <div id="Cursos_menu" onmouseleave="cursos_menu_disapear()">
+     	<div id="Cursos_menu_1" onmouseover="cursos_menu_1_color_change()" onmouseout="cursos_menu_1_color_original()">
+     		<a href="">
+     			<p id="Cursos_menu_1_p">Tradicional</p>
+     		</a>
+     	</div>
+        <div id="Cursos_menu_2" onmouseover="cursos_menu_2_color_change()" onmouseout="cursos_menu_2_color_original()">
+        	<a href="">
+        		<p id="Cursos_menu_2_p">Semipresencial</p>
+        	</a>
+        </div>
+
+        <div id="Cursos_menu_3" onmouseover="cursos_menu_3_color_change()" onmouseout="cursos_menu_3_color_original()">
+        	<a href="">
+        		<p id="Cursos_menu_3_p">A Distância</p>
+        	</a>
+        </div>
+
+        <div id="Cursos_menu_4" onmouseover="cursos_menu_4_color_change()" onmouseout="cursos_menu_4_color_original()">
+        	<a href="">
+        		<p id="Cursos_menu_4_p">Cursos Técnicos</p>
+        	</a>
+        </div>
+
+        <div id="Cursos_menu_5" onmouseover="cursos_menu_5_color_change()" onmouseout="cursos_menu_5_color_original()">
+        	<a href="">
+        		<p id="Cursos_menu_5_p">Pós-Graduação</p>
+        	</a>
+        </div>
+
+        <div id="ln_1b" onmouseover="cursos_menu_disapear()"></div>
+        <div id="ln_2b"></div> 
+     </div>
+    <!--Fim Menu interativo do navbar-->
+
+
+  	 <div id="carrossel">
+  	     <div id="car1">
+  	       <a href="">
+  	       	 <img src="Images/Carrs_1.jpeg">
+  	     	 <p id="c1_tit">Venha para a UniVersa</p>
+  	     	 <p id="c1_subtit">22 anos de tradição</p>
+  	       </a>
+  	     	
+  	     </div>
+  	     <div id="car2">
+  	        <a href="">
+  	        	<img src="Images/Carrs_2.jpg">
+  	     	    <p id="c2_tit">Até 50% de desconto com a nota do ENEM</p>
+  	        </a>
+  	     </div>
+         <div id="car3">
+            <a href="">
+            	<img src="Images/Carrs_3.jpg">
+  	     	    <p id="c2_tit">90% dos alunos empregados antes de terminar o curso</p>
+            </a>
+         </div>
+         <div id="car4">
+            <a href="">
+            	<img src="Images/Carrs_4.jpg">
+  	     	    <p id="c4_tit">Melhor curso de artes do Norte-Nordeste</p>
+            </a>
+         </div>
+  	 </div>
+  	 
+  	 <div id="login_aluno">
+  	 	<p id="p_login_aluno">Já é aluno?</p>
+  	 	<a href="">
+  	     <div id="click">
+  	 		 <p id="click_p">Clique aqui</p>
+  	 	 </div>
+  	 	</a>
+  	 </div>
+      
+     <!--Cisão na estrutura dos menus laterais-->
+     <!--NÃO MUDAR ESSA ESTRUTURA DE LUGAR!!! SOB O RISCO DE BUGAR A TELA-->
+
+  <!--ESTRUTURA-->
+  	 <div id="matricula">
+  	     <div id="ti_matricula">
+  	     	<p id="p_ti_matricula">Matrícula</p>
+  	     </div>
+  	     <a href="">
+  	     	 <div id="turma" onmouseover="turmas_color_change()" onmouseout="turmas_color_original()">
+  	     	 	<p id="p_turma">Turmas 2017</p>
+  	     	 </div>
+  	     </a>
+  	     <a href="">
+  	     	 <div id="promocao" onmouseover="promo_color_change()" onmouseout="promo_color_original()">
+  	     	 	<p id="p_promocao">Promoções</p>
+  	     	 </div>
+  	     </a>
+  	     <a href="">
+  	     	 <div id="informacao" onmouseover="info_color_change()" onmouseout="info_color_original()">
+  	     	 	<p id="p_informacao">Informações</p>
+  	     	 </div>
+  	     </a>
+  	 </div>
+    <!--inicio Menu Interativo Faça parte de nossa equipe-->
+  	 <div id="func_menu" onmouseleave="func_menu_disapear()">
+  	      <a href="">
+  	      	<div id="func_secr" onmouseover="secr_color_change()" onmouseout="secr_color_original()"> 	 
+           	 	<p id="func_secr_p">Secretaria</p> 	 
+  	 	 	</div>
+          </a>
+
+  	 	  <a href="">
+  	 	 	 <div id="func_limp" onmouseover="limp_color_change()" onmouseout="limp_color_original()">
+  	 	 	    <p id="func_limp_p">Limpeza</p>
+  	 	 	 </div>
+  	 	  </a>
+
+  	 	  <a href="">
+  	 	 	 <div id="func_tutr" onmouseover="tutr_color_change()" onmouseout="tutr_color_original()">
+  	 	 	    <p id="func_tutr_p">Tutoria</p>
+  	 	 	 </div>
+  	 	  </a>
+
+  	 	  <a href="">
+  	 	 	 <div id="func_psi" onmouseover="psi_color_change()" onmouseout="psi_color_original()">
+  	 	 	    <p id="func_psi_p">Psicologia</p>
+  	 	 	 </div>
+  	 	  </a>
+
+  	 	  <a href="">
+  	 	 	 <div id="func_ped" onmouseover="ped_color_change()" onmouseout="ped_color_original()">
+  	 	 	    <p id="func_ped_p">Pedagogia</p>
+  	 	 	 </div>
+  	 	  </a>
+
+  	 	  <div id="line1" onmouseover="func_menu_disapear()"></div>
+  	 	  <div id="line2"></div>
+  	 </div>
+
+     <p id="anuncio">Faça parte de nossa equipe</p>
+
+  	 <div id="profissionais">
+  	 	 <a href="">
+  	 	 	 <div id="professor" onmouseover="prof_color_change()" onmouseout="prof_color_original()">
+  	 	 	 	<p id="p_professor">UniVersa Professores</p>
+  	 	 	 </div>
+  	 	 </a>
+  	 	 	 <div id="funcionario" onmouseover="func_color_change()" onmouseout="func_color_original()">
+  	 	 	 	<p id="p_funcionario">UniVersa Funcionários</p>
+  	 	 	 </div>
+  	 </div>
+  <!--fim ESTRUTURA-->
+     
+    <!--Estrutura CARDS para 480px e 320px-->
+     <div class="proj_resp">
+        <p id="proj">Projetos</p>
+        <a href="">
+          <div id="Universa_e_vida">
+     	   	 <p id="Universa_e_vida_p">Universa e vida</p>
+     	  </div>
+        </a>
+
+        <a href="">
+          <div id="Universa_jovem">
+     		 <p id="Universa_jovem_p">Universa Jovem</p>
+     	  </div>
+        </a>
+
+        <a href="">
+         <div id="Universa_estagios">
+     	 	 <p id="Universa_estagios_p">Universa Estágios</p>
+     	 </div>
+        </a>
+     </div>
+     <div class="mat">
+         <p id="mat_p">Matrícula</p>
+         <a href="">
+          <div id="Turmas_2017">
+     	   	 <p id="Turmas_2017_p">Turmas 2017</p>
+     	  </div>
+        </a>
+
+        <a href="">
+          <div id="Promocoes">
+     		 <p id="Promocoes_p">Promoções</p>
+     	  </div>
+        </a>
+
+        <a href="">
+         <div id="Informacoes">
+     	 	 <p id="Informacoes_p">Informações</p>
+     	 </div>
+        </a>
+     </div>
+     
+     <div class="Universa_professionals">
+         <p id="Uni_professionals_p">Faça parte de nossa equipe!</p>
+         <a href="">
+          <div id="Uni_professores">
+     		 <p id="Uni_professores_p">Professores</p>
+     	  </div>
+         </a>
+
+         <a href="">
+          <div id="Uni_secretaria">
+     		 <p id="Uni_secretaria_p">Secretaria</p>
+     	  </div>
+         </a>
+
+         <a href="">
+          <div id="Uni_limpeza">
+     		 <p id="Uni_limpeza_p">Limpeza</p>
+     	  </div>
+         </a>
+
+         <a href="">
+          <div id="Uni_tutoria">
+     		 <p id="Uni_tutoria_p">Tutoria</p>
+     	  </div>
+         </a>
+
+         <a href="">
+          <div id="Uni_psicologia">
+     		 <p id="Uni_psicologia_p">Psicologia</p>
+     	  </div>
+         </a>
+
+         <a href="">
+          <div id="Uni_pedagogia">
+     		 <p id="Uni_pedagogia_p">Pedagogia</p>
+     	  </div>
+         </a>
+
+     </div>
+
+     <!--Fim Estrutura CARDS-->
+
+  	 <div class="feed">
+  	 	<div id="noticia1">
+  	 	    <div id="noticia1_photo">
+  	 	    	<img src="Images/not1.jpg">
+  	 	    </div>
+  	 		<div id="noticia1_titl"><a href="">Dois alunos da UniVersa recebem medalha de ouro na Olimpíada Internacional de Matemática</a></div>
+  	 		<div id="noticia1_body">Anamélia Silva (Engenharia Civil) e João Médici (Matemática) ganharam na última segunda-feira (15) medalha de ouro na Olimpíada Internacional de Matemática um Diekirch, cidade de Luxemburgo.(...)</div>
+  	 	</div>
+
+  	 	<div id="noticia2">
+  	 		<div id="noticia2_photo">
+  	 			<img src="Images/not2.jpg">
+  	 		</div>
+  	 		<div id="noticia2_titl"><a href="">Alunos de Arquitetura expõem suas maquetes na Bienal de Arte</a></div>
+  	 		<div id="noticia2_body">Os alunos das turmas 2017.1 e 2016.2 expuseram na última quarta-feira (17) suas maquetes de prédios e outras construções no Museu Camara Cascudo. O expositor da obra, o professor Edgar Pereira apreciou o trabalho dos jovens e defendeu que deveriam haver mais exposições como essa(...)</div>
+  	 	</div>
+  	 </div>
+  	 <div class="rodape">
+  	     <p id="ZS_titl">UniVersa Zona Sul</p>
+  	     <p id="ZS_body">Av. Prudente de Morais, próximo ao Corpo de Bombeiros; Nº 2300; Tirol; CEP: 59.137-597</p>
+  	     <p id="ZS_tel">TEL: 3256-0015</p>
+  	     <p id="ZN_titl">UniVersa Zona Norte</p>
+  	     <p id="ZN_body">Av. Moema Tinoco, Nº 5865; Pajuçara; CEP: 59.320-312</p>
+  	     <p id="ZN_tel">TEL: 3316-5945</p>
+  	     <!--Estrutura rodapé mobile-->
+  	     <p id="Uni_rodape_p">Universa</p>
+  	     <div id="Universa_logo_rodape">
+  	     	<img src="Images/Universa_logo.png">
+  	     </div>
+  	     <!--Fim estrutura rodapé mobile-->
+  	 	 <div id="foot">
+  	 	   <a href="">
+  	 	   	  <img src="Images/facebook_icon.png" id="facebook_i">
+  	 	   </a>
+  	 	 	<a href="">
+  	 	 	  <img src="Images/instagram_icon.png" id="instagram_i">
+  	 	 	</a>
+  	 	 	<a href="">
+  	 	 	  <img src="Images/twitter_icon.png" id="twitter_i">
+  	 	 	</a>
+  	 	 </div>
+  	 </div>
+  </div>
+</body>
+</html>

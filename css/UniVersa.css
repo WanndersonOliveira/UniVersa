@@ -1,0 +1,1671 @@
+.container{
+	background-color: white;
+	width: 1010px;
+	height: 1400px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	background-color: #f2f2f2;
+}
+
+#foto{
+	background-color: red;
+	height: 150px;
+	width: 100%;
+	position: relative;
+	top: 0%;
+	left: 0%;
+}
+
+#logo{
+    height: 135px;
+    width: 15%;
+    position: absolute;
+    top: 2px;
+    left: 45%;
+}
+
+#menu{
+	position: relative;
+	top: -1%;
+	left: 0%;
+	height: 50px;
+	width: 100%;
+	background-color: #3399ff;
+}
+
+#Home{
+	position: absolute;
+	height: 50px;
+	width: 20%;
+	border-right-style: solid;
+	border-right-width: 1px;
+	border-right-color: black;
+    background-color: none;
+}
+
+#p_Home{
+    position: relative;
+    left: 25%;
+    top: -15%;
+    font-size: 16pt;
+    text-decoration: none;
+    color: black;
+}
+
+#Institucional{
+	position: absolute;
+	height: 50px;
+	width: 20%;
+	left: 20%;
+	border-right-style: solid;
+	border-right-width: 1px;
+	border-right-color: black;
+    background-color: none;
+}
+
+#p_Institucional{
+	position: absolute;
+	left: 22%;
+    top: -15%;
+    font-size: 16pt;
+    text-decoration: none;
+    color: black;
+}
+
+#Cursos{
+	position: absolute;
+	height: 50px;
+	width: 20%;
+	left: 40%;
+	border-right-style: solid;
+	border-right-width: 1px;
+	border-right-color: black;
+    background-color: none;
+}
+
+#p_Cursos{
+	position: absolute;
+	left: 33%;
+    top: -15%;
+    font-size: 16pt;
+    text-decoration: none;
+    color: black;
+}
+
+#Turmas{
+    position: absolute;
+	height: 50px;
+	width: 20%;
+	left: 60%;
+	border-right-style: solid;
+	border-right-width: 1px;
+	border-right-color: black;
+    background-color: none;
+}
+
+#p_Turmas{
+	position: absolute;
+	left: 20%;
+    top: -15%;
+    font-size: 16pt;
+    text-decoration: none;
+    color: black;
+}
+
+#Noticias{
+    position: relative;
+	height: 50px;
+	width: 20%;
+	left: 80%;
+    background-color: none;
+}
+
+#p_Noticias{
+	position: absolute;
+	left: 33%;
+    top: -15%;
+    font-size: 16pt;
+    text-decoration: none;
+    color: black;
+}
+
+/*Inicio de menu interativo de Institucional*/
+#Institucional_menu{
+    display: none;
+ 	position: absolute;
+ 	top: 13.3%;
+ 	left: 20%;
+ 	height: 140px;
+ 	width: 19.9%;
+ 	background-color: #0066ff;
+ 	border-style: solid;
+ 	border-color: black;
+ 	border-width: 1px;
+ 	border-radius-bottom-left: 5px;
+ 	border-radius-bottom-right: 5px; 
+ 	z-index: 2;
+}
+
+#Inst_menu_1{
+    position: relative;
+ 	top: -11%;
+ 	height: 30px;
+ 	width: 100%;
+ 	background-color: #0066ff;
+}
+
+#Inst_menu_1_p, #Inst_menu_2_p, #Inst_menu_3_p{
+    position: relative;
+ 	left: 15%;
+ 	font-size: 16pt;
+}
+
+#Inst_menu_2{
+    position: relative;
+ 	top: -22%;
+ 	height: 30px;
+ 	width: 100%;
+ 	background-color:#0066ff;
+}
+
+
+#Inst_menu_3{
+    position: relative;
+ 	top: -33%;
+ 	height: 30px;
+ 	width: 100%;
+ 	background-color:#0066ff;
+}
+
+#ln_1{
+  position: relative;
+  width: 20%;
+  height: 2px;
+  top: -16%;
+  left: 40%;
+  background-color: white;
+}
+
+#ln_2{
+  position: relative;
+  width: 20%;
+  height: 2px;
+  top: -20%;
+  left: 40%;
+  background-color: white;
+}
+/*Fim de menu interativo de Institucional*/
+
+/*Início de menu interativo de Turmas 2017*/
+#Turmas_menu{
+    display: none;
+ 	position: absolute;
+ 	top: 13.3%;
+ 	left: 60%;
+ 	height: 95px;
+ 	width: 19.9%;
+ 	background-color: #0066ff;
+ 	border-style: solid;
+ 	border-color: black;
+ 	border-width: 1px;
+ 	border-radius-bottom-left: 5px;
+ 	border-radius-bottom-right: 5px; 
+ 	z-index: 2;
+}
+
+#Turmas_menu_1{
+    position: relative;
+ 	top: -20%;
+ 	height: 30px;
+ 	width: 100%;
+ 	background-color: #0066ff;
+}
+
+#Turmas_menu_1_p, #Turmas_menu_2_p{
+    position: relative;
+ 	left: 25%;
+ 	font-size: 16pt;
+}
+
+#Turmas_menu_2{
+    position: relative;
+ 	top: -39%;
+ 	height: 30px;
+ 	width: 100%;
+ 	background-color:#0066ff;
+}
+
+#ln_1a{
+  position: relative;
+  width: 20%;
+  height: 2px;
+  top: -20%;
+  left: 40%;
+  background-color: white;
+}
+
+#ln_2a{
+  position: relative;
+  width: 20%;
+  height: 2px;
+  top: -18%;
+  left: 40%;
+  background-color: white;
+}
+
+
+#Cursos_menu{
+    display: none;
+ 	position: absolute;
+ 	top: 13.3%;
+ 	left: 40%;
+ 	height: 210px;
+ 	width: 19.9%;
+ 	background-color: #0066ff;
+ 	border-style: solid;
+ 	border-color: black;
+ 	border-width: 1px;
+ 	border-radius-bottom-left: 5px;
+ 	border-radius-bottom-right: 5px; 
+ 	z-index: 2;
+}
+
+#Cursos_menu_1{
+    position: relative;
+ 	top: -7%;
+ 	height: 30px;
+ 	width: 100%;
+ 	background-color: #0066ff;
+}
+
+#Cursos_menu_2{
+    position: relative;
+ 	top: -14%;
+ 	height: 30px;
+ 	width: 100%;
+ 	background-color:#0066ff;
+}
+
+#Cursos_menu_3{
+    position: relative;
+ 	top: -21%;
+ 	height: 30px;
+ 	width: 100%;
+ 	background-color: #0066ff;
+}
+
+#Cursos_menu_4{
+    position: relative;
+ 	top: -29%;
+ 	height: 30px;
+ 	width: 100%;
+ 	background-color:#0066ff;
+}
+
+#Cursos_menu_5{
+    position: relative;
+ 	top: -36%;
+ 	height: 30px;
+ 	width: 100%;
+ 	background-color:#0066ff;
+}
+
+
+#Cursos_menu_1_p, #Cursos_menu_2_p, #Cursos_menu_3_p, #Cursos_menu_4_p, #Cursos_menu_5_p{
+    position: relative;
+ 	left: 15%;
+ 	font-size: 16pt;
+}
+
+#ln_1b{
+  position: relative;
+  width: 20%;
+  height: 2px;
+  top: -28%;
+  left: 40%;
+  background-color: white;
+}
+
+#ln_2b{
+  position: relative;
+  width: 20%;
+  height: 2px;
+  top: -27%;
+  left: 40%;
+  background-color: white;
+}
+
+
+/*Fim de menu interativo Turmas 2017*/
+
+#projetos{
+	position: relative;
+	height: 180px;
+    width: 20%;
+    top: 2%;
+    left: 3%;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    border-radius: 8px;
+    background-color: white;
+}
+
+#p0{
+	position: absolute;
+	border-top-style: none;
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+	height: 20%;
+	width: 100%;
+	top: 0%;
+	background-color: #3399ff;
+}
+
+#p_p0{
+	position: relative;
+    height: 100%;
+    width: 100%;
+    top: -65%;
+    left: 25%;
+    font-size: 20pt;
+}
+
+#p1, #p2, #p3{
+	position: relative;
+	height: 25%;
+	width: 100%;
+	top: 20%;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: black;
+    background-color: none;
+}
+
+#p_p1, #p_p2{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    top: -30%;
+    left: 8%;
+    font-size: 18pt;
+    font-color: black;
+    text-decoration: none;
+}
+
+
+#p_p3{
+	position: relative;
+    height: 100%;
+    width: 100%;
+    top: -30%;
+    left: 5%;
+    font-size: 18pt;
+    font-color: black;
+    text-decoration: none;
+}
+
+#carrossel{
+	position: relative;
+	height: 300px;
+	width: 45%;
+	top: -8%;
+	left: 35%;
+	background-color: white;
+}
+
+#car1{
+	display: block;
+}
+
+#c1_tit{
+	position: absolute;
+	top: 70%;
+	left: 35%;
+	font-size: 20pt;
+	color: blue;
+	background-color: white;
+}
+
+#c1_subtit{
+	position: absolute;
+	top: 83%;
+	left: 60%;
+	font-size: 16pt;
+	color: blue;
+	background-color: white;
+}
+
+#car2{
+	display: none;
+}
+
+#c2_tit{
+	position: absolute;
+	top: 70%;
+	left: 2%;
+	font-size: 20pt;
+	color: blue;
+	background-color: white;
+}
+
+#car3{
+	display: none;
+}
+
+#c3_tit{
+	position: absolute;
+	top: 70%;
+	left: 2%;
+	font-size: 20pt;
+	color: blue;
+	background-color: white;
+}
+
+#car4{
+	display: none;
+}
+
+#c4_tit{
+	position: absolute;
+	top: 70%;
+	left: 2%;
+	font-size: 20pt;
+	color: blue;
+	background-color: white;
+}
+
+#matricula{
+	position: relative;
+	height: 200px;
+	width: 20%;
+	top: -15%;
+	left: 3%;
+	background-color: white;
+	border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    border-radius: 8px;
+}
+
+#ti_matricula{
+    position: absolute;
+	border-top-style: none;
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+	height: 20%;
+	width: 100%;
+	top: 0%;
+	background-color: #3399ff;
+}
+
+#p_ti_matricula{
+	position: relative;
+    height: 100%;
+    width: 100%;
+    top: -45%;
+    left: 25%;
+    font-size: 20pt;
+}
+
+#turma, #promocao, #informacao{
+    position: relative;
+	height: 25%;
+	width: 100%;
+	top: 20%;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: black;
+}
+
+#p_turma, #p_promocao, #p_informacao{
+	position: relative;
+    height: 100%;
+    width: 100%;
+    top: -30%;
+    left: 15%;
+    font-size: 20pt;
+}
+
+
+#anuncio{
+	position: absolute;
+	top: 48%;
+	left: 2%;
+	font-size: 18pt;
+}
+
+#profissionais{
+	position: relative;
+	height: 80px;
+	width: 20%;
+	top: -10%;
+	left: 3%;
+	border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    border-radius: 8px;
+}
+
+#professor{
+	position: relative;
+	height: 50%;
+	width: 100%;
+	top: -25%;
+    border-top-style: none;
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+	background-color: white;
+}
+
+
+ #funcionario{
+	position: relative;
+	height: 49%;
+	width: 100%;
+	top: -25%;
+	border-bottom-style: none;
+	border-bottom-left-radius: 8px;
+	border-bottom-right-radius: 8px;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: black;
+	background-color: white;
+}
+
+ #p_professor{
+ 	position: relative;
+    height: 100%;
+    width: 100%;
+    top: 20%;
+    left: 8%;
+    font-size: 15pt;
+ }
+
+ #p_funcionario{
+ 	position: relative;
+ 	height: 100%;
+ 	width: 100%;
+ 	top: -30%;
+ 	left: 5%;
+ 	font-size: 15pt;
+ }
+
+ #func_menu{
+ 	display: none;
+ 	position: absolute;
+ 	top: 57.1%;
+ 	left: 3.1%;
+ 	height: 200px;
+ 	width: 20%;
+ 	background-color: #0066ff;
+ 	border-style: none;
+ 	border-width: 1px;
+ 	border-radius: 5px;
+ }
+
+ #func_secr{
+ 	position: relative;
+ 	top: 2%;
+ 	height: 30px;
+ 	width: 100%;
+ 	background-color: #0066ff;
+ }
+
+ #func_secr_p{
+ 	position: relative;
+ 	left: 26%;
+ 	font-size: 16pt;
+ }
+
+ #func_limp{
+ 	position: relative;
+ 	top: -9%;
+ 	height: 30px;
+ 	width: 100%;
+ 	background-color: #0066ff;
+ }
+
+ #func_limp_p{
+ 	position: relative;
+ 	left: 26%;
+ 	font-size: 16pt;
+ }
+
+ #func_tutr{
+ 	position: relative;
+ 	top: -20%;
+ 	height: 30px;
+ 	width: 100%;
+ 	background-color:#0066ff;
+ }
+
+ #func_tutr_p{
+    position: relative;
+ 	left: 26%;
+ 	font-size: 16pt;	
+ }
+
+ #func_psi{
+    position: relative;
+ 	top: -31%;
+ 	height: 30px;
+ 	width: 100%;
+ 	background-color: #0066ff;
+ }
+
+ #func_psi_p{
+    position: relative;
+ 	left: 26%;
+ 	font-size: 16pt;
+ }
+
+ #func_ped{
+    position: relative;
+ 	top: -42%;
+ 	height: 30px;
+ 	width: 100%;
+ 	background-color:#0066ff;
+ }
+
+ #func_ped_p{
+    position: relative;
+ 	left: 26%;
+ 	font-size: 16pt;
+ }
+
+ #line1{
+ 	position: relative;
+ 	top: -35%;
+ 	left: 40%;
+ 	height: 2px;
+ 	width: 20%;
+ 	background-color: white;
+ }
+
+ #line2{
+ 	position: relative;
+ 	top: -33%;
+ 	left: 40%;
+ 	height: 2px;
+ 	width: 20%;
+ 	background-color: white;
+ }
+
+ #login_aluno{
+    position: absolute;
+    height: 50px;
+    width: 40%;
+    top: 47%;
+    left: 35%;
+    background-color: #004080;
+    border-radius: 8px;
+ }
+
+ #p_login_aluno{
+ 	position: absolute;
+ 	top: -20%;
+    left: 20%;
+    font-size: 16pt;
+ }
+
+ #click{
+    position: absolute;
+ 	top: 8%;
+    left: 45%;
+    height: 40px;
+    width: 30%;
+    font-size: 16pt;
+    background-color: #3399ff;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+ }
+
+ #click_p{
+    position: absolute;
+    top: -35%;
+    left: 8%;
+ }
+
+ .feed{
+ 	position: absolute;
+ 	height: 400px;
+ 	width: 60%;
+ 	top: 56%;
+ 	left: 30%;
+ 	background-color: white;
+ 	border-style: solid;
+ 	border-width: 1px;
+ 	border-color: black;
+ 	border-radius: 8px;
+ }
+
+ #noticia1{
+ 	position: absolute;
+ 	top: 0%;
+ 	left: 0%;
+ 	height: 100px;
+ 	width: 100%;
+ }
+
+ #noticia1_photo{
+ 	position:absolute;
+ 	top: 75%;
+ 	left: 2%;
+ 	height: 400px;
+    width: 25%;
+ }
+
+ #noticia1_titl{
+ 	position: absolute;
+ 	top: 7%;
+ 	left: 2%;
+ 	height: 200px;
+    width: 100%;
+    font-size: 16pt;
+    text-decoration: underline;
+ }
+
+ #noticia1_body{
+ 	position: absolute;
+ 	top: 75%;
+ 	left: 30%;
+ 	height: 400px;
+    width: 70%;
+    font-size: 14pt;
+ }
+
+ #noticia2{
+ 	position: absolute;
+ 	top: 50%;
+ 	left: 0%;
+ 	height: 100px;
+ 	width: 100%;
+ }
+
+ #noticia2_photo{
+ 	position:absolute;
+ 	top: 45%;
+ 	left: 2%;
+ 	height: 400px;
+    width: 25%;
+ }
+
+ #noticia2_titl{
+ 	position: absolute;
+ 	top: 7%;
+ 	left: 2%;
+ 	height: 200px;
+    width: 100%;
+    font-size: 16pt;
+    text-decoration: underline;
+ }
+
+ #noticia2_body{
+ 	position: absolute;
+ 	top: 45%;
+ 	left: 30%;
+ 	height: 400px;
+    width: 70%;
+    font-size: 14pt;
+ }
+
+ 
+ .rodape{
+ 	position: absolute;
+ 	height: 200px;
+ 	width: 100%;
+ 	top: 100%;
+ 	left: 0%;
+ 	background-color: #3399ff;
+ }
+
+ #foot{
+ 	position: relative;
+ 	height: 50px;
+ 	width: 100%;
+ 	top: 75%;
+ 	left: 0%;
+ 	background-color: blue;
+ }
+ #ZS_titl{
+ 	position: absolute;
+ 	font-size: 14pt;
+ 	top: 2%;
+ 	left: 20%;
+ 	width: 15%;
+ }
+
+ #ZS_body{
+ 	position: absolute;
+ 	font-size: 12pt;
+ 	top: 15%;
+    left: 20%;
+    width: 20%;
+ }
+
+ #ZS_tel{
+ 	position: absolute;
+ 	font-size: 12pt;
+ 	top: 55%;
+ 	left: 20%;
+ 	width: 15%;
+ }
+
+ #ZN_titl{
+    position: absolute;
+ 	font-size: 14pt;
+ 	top: 2%;
+ 	left: 60%;
+ 	width: 20%;
+ }
+
+ #ZN_body{
+    position: absolute;
+ 	font-size: 12pt;
+ 	top: 15%;
+    left: 60%;
+    width: 20%;
+ }
+
+ #ZN_tel{
+    position: absolute;
+ 	font-size: 12pt;
+ 	top: 35%;
+ 	left: 60%;
+ 	width: 15%;
+ }
+
+ #facebook_i{
+ 	position: absolute;
+ 	top: 10%;
+ 	left: 5%;
+ 	height: 35px;
+    width: 5%;
+ }
+
+ #instagram_i{
+ 	position: absolute;
+ 	top: 10%;
+ 	left: 11%;
+ 	height: 35px;
+    width: 5%;
+ }
+
+ #twitter_i{
+ 	position: absolute;
+ 	top: 10%;
+ 	left: 17%;
+ 	height: 35px;
+    width: 5%;
+ }
+
+ #Uni_rodape_p, #Universa_logo_rodape, .proj_resp, .mat, .Universa_professionals{
+    display: none;
+ }
+
+img{
+	max-width: 100%
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+
+@media screen and (max-width: 1200px){
+	.container{
+		width: 1200px;
+	}
+
+}
+
+@media screen and (max-width: 1024px){
+	.container{
+		width: 1024px;
+	}
+}
+
+@media screen and (max-width: 480px){
+	.container{
+		width: 480px;
+        height: 1600px;
+	}
+
+	#carrossel{
+ 	 display: none;
+    }
+
+    #Institucional_menu{
+     display: none;
+    }
+
+    #Turmas_menu{
+       display: none;
+     }
+
+    #Cursos_menu{
+      display: none;
+    }
+
+    #p_Home{
+    position: relative;
+    left: 5%;
+    top: -15%;
+    font-size: 16pt;
+    text-decoration: none;
+    color: black;
+    }
+
+    #p_Institucional{
+	position: absolute;
+	left: 2%;
+    top: -5%;
+    font-size: 14pt;
+    text-decoration: none;
+    color: black;
+    }
+
+    #p_Cursos{
+	position: absolute;
+	left: 20%;
+    top: -15%;
+    font-size: 16pt;
+    text-decoration: none;
+    color: black;
+    }
+
+    #p_Turmas{
+	position: absolute;
+	left: 20%;
+    top: -45%;
+    font-size: 16pt;
+    text-decoration: none;
+    color: black;
+    }
+
+    #p_Noticias{
+	position: absolute;
+	left: 16%;
+    top: -15%;
+    font-size: 16pt;
+    text-decoration: none;
+    color: black;
+    }
+
+    .feed{
+ 	 display: none;
+    }
+
+    #login_aluno{
+     display: block;
+     position: absolute;
+     top: 57%;
+     left: 5%;
+     width: 90%;
+     border-style: none;
+     border-radius: 8%;
+    }
+
+    #projetos, #matricula, #func_menu, #anuncio, #profissionais{
+    	display: none;                  /*Apaga menus laterais*/
+    }
+    
+    .rodape{
+    	display: block;
+        top: 100%;
+    }
+
+    #Uni_rodape_p{
+        display: block;
+        position: absolute;
+        top: -5%;
+        left: 40%;
+        font-size: 18pt;
+    }
+
+    #Universa_logo_rodape{
+        display: block;
+        position: absolute;
+        top: 25%;
+        left: 43%;
+        width: 12%;
+        height: 15px;
+    }
+
+    #ZS_titl, #ZS_body, #ZS_tel, #ZN_titl, #ZN_body, #ZN_tel{
+       display: none;
+    }
+
+
+
+    .proj_resp{
+        display: block;
+    	position: absolute;
+    	top: 13%;
+    	left: 5%;
+    	width: 90%;
+    	height: 300px;
+        background-color: #bfbfbf;
+        border-style: none;
+        border-radius: 5%;
+    }
+
+    #proj{
+        position: absolute;
+        top: 0%;
+        left: 40%;
+        width: 100%;
+        height: 50px;
+        font-size: 20pt;
+    }
+
+    #Universa_e_vida{
+    	position: absolute;
+    	top: 30%;
+    	left: 5%;
+    	width: 25%;
+    	height: 150px;
+    	background-color: #0066ff;
+        border-style: none;
+        border-radius: 5%;
+    }
+
+    #Universa_e_vida_p{
+    	position: relative;
+    	top: 15%;
+    	font-size: 18pt;
+    }
+
+    #Universa_jovem{
+    	position: absolute;
+    	top: 30%;
+    	left: 37%;
+    	width: 25%;
+    	height: 150px;
+    	background-color: #0066ff;
+        border-style: none;
+        border-radius: 5%;
+    }
+
+    #Universa_jovem_p{
+    	position: relative;
+    	top: 15%;
+    	left: 7%;
+    	font-size: 18pt;
+    }
+
+    #Universa_estagios{
+    	position: absolute;
+    	top: 30%;
+    	left: 70%;
+    	width: 25%;
+    	height: 150px;
+    	background-color: #0066ff;
+        border-style: none;
+        border-radius: 5%;
+    }
+
+    #Universa_estagios_p{
+    	position: relative;
+    	top: 15%;
+    	left: 7%;
+    	font-size: 18pt;
+    }
+
+    .mat{
+        display: block;
+        position: absolute;
+        top: 35%;
+        left: 5%;
+        width: 90%;
+        height: 300px;
+        background-color: #bfbfbf;
+        border-style: none;
+        border-radius: 5%;
+    }
+
+    #mat_p{
+        position: absolute;
+        top: 0%;
+        left: 40%;
+        width: 100%;
+        height: 50px;
+        font-size: 20pt;
+    }
+
+    #Turmas_2017{
+        position: absolute;
+        top: 30%;
+        left: 5%;
+        width: 25%;
+        height: 150px;
+        background-color: #0066ff;
+        border-style: none;
+        border-radius: 5%;
+    }
+
+    #Turmas_2017_p{
+        position: relative;
+        top: 15%;
+        left: 20%;
+        font-size: 18pt;
+    }
+
+    #Promocoes{
+        position: absolute;
+        top: 30%;
+        left: 37%;
+        width: 25%;
+        height: 150px;
+        background-color: #0066ff;
+        border-style: none;
+        border-radius: 5%;
+    }
+
+    #Promocoes_p{
+        position: relative;
+        top: 22%;
+        font-size: 18pt;
+    }
+
+    #Informacoes{
+        position: absolute;
+        top: 30%;
+        left: 70%;
+        width: 25%;
+        height: 150px;
+        background-color: #0066ff;
+        border-style: none;
+        border-radius: 5%;
+    }
+
+    #Informacoes_p{
+        position: relative;
+        top: 25%;
+        font-size: 16pt;
+    }
+
+    .Universa_professionals{
+        display: block;
+        position: absolute;
+        top: 64%;
+        left: 5%;
+        width: 90%;
+        height: 400px;
+        background-color: #bfbfbf;
+        border-style: none;
+        border-radius: 5%;
+    }
+
+    #Uni_professionals_p{
+        position: absolute;
+        top: 0%;
+        left: 17%;
+        width: 100%;
+        height: 50px;
+        font-size: 20pt;
+    }
+
+    #Uni_professores{
+        position: absolute;
+        top: 25%;
+        left: 5%;
+        width: 25%;
+        height: 100px;
+        background-color: #0066ff;
+        border-style: none;
+        border-radius: 5%;
+    }
+
+    #Uni_professores_p{
+        position: relative;
+        top: 15%;
+        left: 5%;
+        font-size: 16pt;
+    }
+
+    #Uni_secretaria{
+        position: absolute;
+        top: 25%;
+        left: 37%;
+        width: 25%;
+        height: 100px;
+        background-color: #0066ff;
+        border-style: none;
+        border-radius: 5%;
+    }
+
+    #Uni_secretaria_p{
+        position: relative;
+        top: 12%;
+        left: 5%;
+        font-size: 18pt;
+    }
+    
+    #Uni_limpeza{
+        position: absolute;
+        top: 25%;
+        left: 70%;
+        width: 25%;
+        height: 100px;
+        background-color: #0066ff;
+        border-style: none;
+        border-radius: 5%;
+    }
+
+    #Uni_limpeza_p{
+        position: relative;
+        top: 15%;
+        left: 15%;
+        font-size: 16pt;
+    }
+
+    #Uni_tutoria{
+        position: absolute;
+        top: 60%;
+        left: 5%;
+        width: 25%;
+        height: 100px;
+        background-color: #0066ff;
+        border-style: none;
+        border-radius: 5%;
+    }
+
+    #Uni_tutoria_p{
+        position: relative;
+        top: 15%;
+        left: 15%;
+        font-size: 18pt;
+    }
+
+    #Uni_psicologia{
+        position: absolute;
+        top: 60%;
+        left: 37%;
+        width: 25%;
+        height: 100px;
+        background-color: #0066ff;
+        border-style: none;
+        border-radius: 5%;
+    }
+
+    #Uni_psicologia_p{
+        position: relative;
+        top: 12%;
+        left: 2%;
+        font-size: 18pt;
+    }
+    
+    #Uni_pedagogia{
+        position: absolute;
+        top: 60%;
+        left: 70%;
+        width: 25%;
+        height: 100px;
+        background-color: #0066ff;
+        border-style: none;
+        border-radius: 5%;
+    }
+
+    #Uni_pedagogia_p{
+        position: relative;
+        top: 15%;
+        left: 2%;
+        font-size: 18pt;
+    }
+
+}
+
+@media screen and (max-width: 400px){
+    .container{
+        width: 400px;
+    }
+
+    #Uni_rodape_p{
+        display: block;
+        position: absolute;
+        top: -5%;
+        left: 38%;
+        font-size: 18pt;
+    }
+
+    #p_Home{
+     position: relative;
+     left: 5%;
+     top: -10%;
+     font-size: 14pt;
+     text-decoration: none;
+     color: black;
+    }
+
+    #p_Institucional{
+    position: absolute;
+    left: 2%;
+    top: -2%;
+    font-size: 12pt;
+    text-decoration: none;
+    color: black;
+    }
+
+    #p_Cursos{
+    position: absolute;
+    left: 18%;
+    top: -12%;
+    font-size: 14pt;
+    text-decoration: none;
+    color: black;
+    }
+
+    #p_Turmas{
+    position: absolute;
+    left: 20%;
+    top: -30%;
+    font-size: 14pt;
+    text-decoration: none;
+    color: black;
+    }
+
+    #p_Noticias{
+    position: absolute;
+    left: 13%;
+    top: -13%;
+    font-size: 14pt;
+    text-decoration: none;
+    color: black;
+    }
+
+    #Universa_jovem_p{
+        position: relative;
+        top: 15%;
+        left: 0%;
+        font-size: 18pt;
+    }
+
+    #Universa_estagios_p{
+        position: relative;
+        top: 15%;
+        left: 0%;
+        font-size: 18pt;
+    }
+
+    #click{
+     position: absolute;
+     top: 8%;
+     left: 50%;
+     height: 40px;
+     width: 30%;
+     font-size: 16pt;
+     background-color: #3399ff;
+     border-radius: 5px;
+     border-style: solid;
+     border-width: 1px;
+     border-color: black;
+   }
+
+   #click_p{
+     position: absolute;
+     top: -35%;
+     left: 3%;
+   }
+
+    #Uni_professores_p, #Uni_secretaria_p, #Uni_tutoria_p, #Uni_psicologia_p, #Uni_pedagogia_p{
+        position: relative;
+        top: 18%;
+        left: 3%;
+        font-size: 14pt;
+    }
+
+    #Uni_secretaria_p, #Uni_pedagogia_p{
+        position: relative;
+        left: 7%;
+    }
+
+    #Uni_limpeza_p{
+        position: relative;
+        top: 20%;
+        left: 15%;
+        font-size: 14pt;
+    }
+
+    #Uni_tutoria_p{
+        position: relative;
+        left: 20%;
+    }
+
+    #Turmas_2017_p{
+        position: relative;
+        top: 20%;
+        left: 20%;
+        font-size: 14pt;
+    }
+
+    #Promocoes_p{
+        position: relative;
+        top: 30%;
+        left: 3%;
+        font-size: 14pt;
+    }
+
+
+    #Informacoes_p{
+        position: relative;
+        top: 30%;
+        left: -2%;
+        font-size: 14pt;
+    }
+
+    #Uni_professionals_p{
+        position: absolute;
+        top: 0%;
+        left: 10%;
+        width: 100%;
+        height: 50px;
+        font-size: 20pt;
+    }
+
+
+}  
+
+@media screen and (max-width: 320px){
+	.container{
+		width: 320px;
+	}
+
+	#carrossel{
+ 	display: none;
+    }
+
+    #p_Home{
+    position: relative;
+    left: 5%;
+    top: 2%;
+    font-size: 12pt;
+    text-decoration: none;
+    color: black;
+    }
+
+    #p_Institucional{
+	position: absolute;
+	left: 2%;
+    top: 10%;
+    font-size: 10pt;
+    text-decoration: none;
+    color: black;
+    }
+
+    #p_Cursos{
+	position: absolute;
+	left: 6%;
+    top: -15%;
+    font-size: 16pt;
+    text-decoration: none;
+    color: black;
+    }
+
+    #p_Turmas{
+	position: absolute;
+	left: 5%;
+    top: -35%;
+    font-size: 14pt;
+    text-decoration: none;
+    color: black;
+    }
+
+    #p_Noticias{
+	position: absolute;
+	left: 2%;
+    top: -10%;
+    font-size: 14pt;
+    text-decoration: none;
+    color: black;
+    }
+
+    #Universa_e_vida_p{
+    	position: relative;
+    	top: 20%;
+    	font-size: 14pt;
+    }
+
+    #Universa_jovem_p{
+    	position: relative;
+    	top: 20%;
+    	left: 5%;
+    	font-size: 14pt;
+    }
+
+
+    #Universa_estagios_p{
+    	position: relative;
+    	top: 20%;
+    	left: 5%;
+    	font-size: 14pt;
+    }
+    
+    #mat_p{
+        position: absolute;
+        top: 0%;
+        left: 30%;
+        width: 100%;
+        height: 50px;
+        font-size: 20pt;
+    }
+
+
+    #Turmas_2017_p{
+        position: relative;
+        top: 20%;
+        left: 15%;
+        font-size: 12pt;
+    }
+
+
+    #Promocoes_p{
+        position: relative;
+        top: 25%;
+        font-size: 12pt;
+    }
+
+    #Informacoes_p{
+        position: relative;
+        top: 25%;
+        font-size: 12pt;
+    }
+
+    #click{
+     position: absolute;
+     top: 8%;
+     left: 50%;
+     height: 40px;
+     width: 40%;
+     font-size: 16pt;
+     background-color: #3399ff;
+     border-radius: 5px;
+     border-style: solid;
+     border-width: 1px;
+     border-color: black;
+   }
+
+   #p_login_aluno{
+     position: absolute;
+     top: -20%;
+     left: 10%;
+     font-size: 16pt;
+   }
+
+   #click_p{
+     position: absolute;
+     top: -40%;
+     left: 7%;
+   }
+
+    #Uni_professionals_p{
+        position: absolute;
+        top: -5%;
+        left: 15%;
+        width: 100%;
+        height: 50px;
+        font-size: 20pt;
+    }
+
+    #Uni_professores_p{
+        position: relative;
+        top: 20%;
+        left: 0%;
+        font-size: 12pt;
+    }
+
+
+    #Uni_secretaria_p{
+        position: relative;
+        top: 20%;
+        left: 5%;
+        font-size: 12pt;
+    }
+    
+
+    #Uni_limpeza_p{
+        position: relative;
+        top: 20%;
+        left: 13%;
+        font-size: 12pt;
+    }
+
+
+    #Uni_tutoria_p{
+        position: relative;
+        top: 20%;
+        left: 17%;
+        font-size: 12pt;
+    }
+
+
+    #Uni_psicologia_p{
+        position: relative;
+        top: 20%;
+        left: 5%;
+        font-size: 12pt;
+    }
+    
+
+    #Uni_pedagogia_p{
+        position: relative;
+        top: 20%;
+        left: 5%;
+        font-size: 12pt;
+    }
+
+    #Uni_rodape_p{
+        display: block;
+        position: absolute;
+        top: -5%;
+        left: 35%;
+        font-size: 18pt;
+    }
+
+   
+}
